@@ -68,13 +68,15 @@ export const Header = styled.div`
 `;
 
 export const Body = styled.div`
-  font-size: 26px;
+  font-size: 22px;
   font-weight: normal;
-  line-height: normal;
+  /* line-height: normal; */
   background: #303030;
   white-space: pre-wrap;
   user-select: none;
   overflow: hidden;
+  padding: 20px;
+  line-height: 1.2;
   &.closed {
     max-height: 0;
     overflow: hidden;
