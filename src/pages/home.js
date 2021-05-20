@@ -1,15 +1,18 @@
 import {
   FaqsContainer,
   FooterContainer,
+  HeaderContainer,
   JumbotronContainer,
 } from '../containers';
 
 const Home = () => {
   return (
     <>
-      <JumbotronContainer />
-      <FaqsContainer />
-      <FooterContainer />
+      <HeaderContainer>
+        <JumbotronContainer />
+        <FaqsContainer />
+        <FooterContainer />
+      </HeaderContainer>
     </>
   );
 };
