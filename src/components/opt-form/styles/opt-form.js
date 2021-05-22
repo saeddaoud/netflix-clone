@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   height: 100%;
-  margin-top: 20px;
+  margin: 20px 0;
   flex-wrap: wrap;
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -60,6 +60,7 @@ export const Text = styled.p`
   font-size: 19.2px;
   color: white;
   text-align: center;
+  margin-left: 20px;
   @media (max-width: 600px) {
     font-size: 16px;
     line-height: 22px;

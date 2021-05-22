@@ -10,8 +10,8 @@ export const Background = styled.div`
     rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.35)
   );
-  /* background-image: url(${({ src }) =>
-    src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg'}); */
+  background-image: url(${({ src }) =>
+    src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg'});
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;

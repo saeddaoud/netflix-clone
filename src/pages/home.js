@@ -1,3 +1,4 @@
+import { Feature, OptForm } from '../components';
 import {
   FaqsContainer,
   FooterContainer,
@@ -9,10 +10,25 @@ const Home = () => {
   return (
     <>
       <HeaderContainer>
-        <JumbotronContainer />
-        <FaqsContainer />
-        <FooterContainer />
+        <Feature>
+          <Feature.Title>Unlimited TV programs, fils, and more</Feature.Title>
+          <Feature.SubTitle>
+            Watch from anywhere. Cancel at anytime
+          </Feature.SubTitle>
+
+          <OptForm>
+            <OptForm.Input placeholder='Email Address' />
+            <OptForm.Button>Try it now</OptForm.Button>
+            <OptForm.Text>
+              Ready to watch? enter your email to create or restart your
+              membership
+            </OptForm.Text>
+          </OptForm>
+        </Feature>
       </HeaderContainer>
+      <JumbotronContainer />
+      <FaqsContainer />
+      <FooterContainer />
     </>
   );
 };
